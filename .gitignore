@@ -1,0 +1,116 @@
+###########################
+# Compiled Java classes
+###########################
+*.class
+
+###########################
+# Package Files
+###########################
+*.jar
+*.war
+*.ear
+
+###########################
+# Backup and Merge Files
+###########################
+*.bak
+*~
+*.swp
+*.swo
+
+###########################
+# Logs & System Crashes
+###########################
+*.log
+hs_err_pid*
+replay_pid*
+
+###########################
+# OS-specific files
+###########################
+# macOS
+.DS_Store
+.apple_desktop
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+###########################
+# SSH Keys & Environment
+###########################
+*.pem
+*.ppk
+*.key
+*.env
+.env.*
+!.env.example
+
+###########################
+# Build output directories
+###########################
+/bin/
+/target/
+/build/
+/dist/
+/out/
+
+###########################
+# IDEs (IntelliJ, Eclipse, VS Code, NetBeans)
+###########################
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+.metadata/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbproject/build-impl.xml
+nbproject/genfiles.properties
+
+###########################
+# Maven
+###########################
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+###########################
+# Gradle
+###########################
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+###########################
+# Coverage & Reports
+###########################
+jacoco.exec
+coverage/
+coverage-report/
+test-output/
+surefire-reports/
+.cobertura/
+
+###########################
+# Dependencies & Misc
+###########################
+/node_modules/
+*.lock
