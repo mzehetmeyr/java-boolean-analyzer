@@ -114,3 +114,4 @@ surefire-reports/
 ###########################
 /node_modules/
 *.lock
+dependency-reduced-pom.xml
