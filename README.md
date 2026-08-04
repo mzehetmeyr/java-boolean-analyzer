@@ -1,0 +1,1 @@
+Este projeto consiste em uma ferramenta de processamento de expressões lógicas. Ele converte expressões em texto contendo variáveis booleanas e operadores lógicos em uma estrutura avaliável, calculando resultados dinâmicos e gerando todas as combinações possíveis ($2^N$) em uma Tabela Verdade.
